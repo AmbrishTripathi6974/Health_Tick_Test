@@ -48,3 +48,57 @@ In *Grow Your Forest*, users build a personalized forest by completing **3 daily
     "2": { "height": 120, "width": 70, "color": "#386641" }
   }
 }
+
+--- 
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure the following are installed on your system:
+- **Flutter SDK**: Version `>=3.4.4 <4.0.0`.
+- **Dart SDK**.
+- **Android/iOS Setup**: For Flutter development.
+
+### Installation
+
+1. **Clone the Repository**:
+   ```bash  
+   git clone https://github.com/acumensa/my-wonder-app.git  
+   cd my-wonder-app  
+   ```  
+
+2. **Install Dependencies**:
+   ```bash  
+   flutter pub get  
+   ```  
+
+3. **Set Up Environment Variables**:  
+   Create a `.env` file in the root directory and add the following:
+   ```env  
+   SUPABASE_URL=https://your-supabase-url.supabase.co  
+   SUPABASE_KEY=your-anon-or-service-key  
+   ```  
+
+4. **Run the App**:
+   ```bash  
+   flutter run  
+   ```  
+
+---  
+
+## 📦 Dependencies
+
+A glimpse at the major dependencies:
+
+| Dependency            | Version | Purpose                                  |  
+|-----------------------|---------|------------------------------------------|  
+| `flutter_bloc`        | ^8.1.6  | State management.                        |  
+| `hydrated_bloc`       | ^9.1.5  | Persistent state management.             |  
+| `dio`                 | ^5.7.0  | Advanced HTTP client.                    |  
+| `go_router`           | ^14.6.1 | Simplified navigation management.        |  
+| `hive`                | ^2.2.3  | Lightweight local database.              |  
+| `supabase_flutter`    | ^1.2.0  | Authentication and backend integration.  |  
+
+For a complete list, check out the [`pubspec.yaml`](./pubspec.yaml).
+
