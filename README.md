@@ -84,7 +84,7 @@ A glimpse at the major dependencies:
 
 | Dependency            | Version | Purpose                                  |  
 |-----------------------|---------|------------------------------------------|  
-| `flutter_bloc`        | ^8.1.6  | State management.                        |
+| `flutter_riverpod`    | ^3.0.0  | State management.                        |
 | `dio`                 | ^5.7.0  | Advanced HTTP client.                    |  
 | `go_router`           | ^14.6.1 | Simplified navigation management.        |  
 | `custom_painter`      | ^2.2.3  | Design custom animation & design.        |  
