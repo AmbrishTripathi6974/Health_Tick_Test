@@ -34,23 +34,6 @@ In *Grow Your Forest*, users build a personalized forest by completing **3 daily
 - **Clean Architecture** principles
 
 ---
-
-## 🧬 Firebase Schema Overview
-
-### 1. 🌿 Species Master Data
-
-```json
-{
-  "speciesId": "species_1",
-  "growthStages": 2,
-  "stageParameters": {
-    "1": { "height": 80, "width": 50, "color": "#6A994E" },
-    "2": { "height": 120, "width": 70, "color": "#386641" }
-  }
-}
-
---- 
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -101,4 +84,21 @@ A glimpse at the major dependencies:
 | `supabase_flutter`    | ^1.2.0  | Authentication and backend integration.  |  
 
 For a complete list, check out the [`pubspec.yaml`](./pubspec.yaml).
+
+--- 
+
+## 🧬 Firebase Schema Overview
+
+### 1. 🌿 Species Master Data
+
+```json
+{
+  "speciesId": "species_1",
+  "growthStages": 2,
+  "stageParameters": {
+    "1": { "height": 80, "width": 50, "color": "#6A994E" },
+    "2": { "height": 120, "width": 70, "color": "#386641" }
+  }
+}
+
 
