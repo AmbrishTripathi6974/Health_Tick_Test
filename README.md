@@ -47,8 +47,7 @@ Ensure the following are installed on your system:
 
 1. **Clone the Repository**:
    ```bash  
-   git clone https://github.com/acumensa/my-wonder-app.git  
-   cd my-wonder-app  
+   git clone https://github.com/AmbrishTripathi6974/Health_Tick_Test.git  
    ```  
 
 2. **Install Dependencies**:
@@ -56,11 +55,12 @@ Ensure the following are installed on your system:
    flutter pub get  
    ```  
 
-3. **Set Up Environment Variables**:  
-   Create a `.env` file in the root directory and add the following:
-   ```env  
-   SUPABASE_URL=https://your-supabase-url.supabase.co  
-   SUPABASE_KEY=your-anon-or-service-key  
+3. **Set Up Firebase**:  
+   Connect Firebase
+
+    -> Set up your Firebase project
+
+    -> Replace google-services.json and/or firebase_options.dart accordingly_KEY=your-anon-or-service-key  
    ```  
 
 4. **Run the App**:
@@ -76,12 +76,10 @@ A glimpse at the major dependencies:
 
 | Dependency            | Version | Purpose                                  |  
 |-----------------------|---------|------------------------------------------|  
-| `flutter_bloc`        | ^8.1.6  | State management.                        |  
-| `hydrated_bloc`       | ^9.1.5  | Persistent state management.             |  
+| `flutter_bloc`        | ^8.1.6  | State management.                        |
 | `dio`                 | ^5.7.0  | Advanced HTTP client.                    |  
 | `go_router`           | ^14.6.1 | Simplified navigation management.        |  
-| `hive`                | ^2.2.3  | Lightweight local database.              |  
-| `supabase_flutter`    | ^1.2.0  | Authentication and backend integration.  |  
+| `custom_painter`      | ^2.2.3  | Design custom animation & design.        |  
 
 For a complete list, check out the [`pubspec.yaml`](./pubspec.yaml).
 
@@ -100,5 +98,13 @@ For a complete list, check out the [`pubspec.yaml`](./pubspec.yaml).
     "2": { "height": 120, "width": 70, "color": "#386641" }
   }
 }
+```  
+---
 
+### Credit 
+> ✅ **Pro Tip:** After pasting this in your README.md, remember to:
+- Replace your-username in the clone URL with your actual GitHub username.
+- Replace [Your Name] at the end with your real name or GitHub handle.
+
+Would you like a cover image or tree growth diagram added at the top of the README?
 
