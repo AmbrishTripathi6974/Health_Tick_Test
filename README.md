@@ -120,5 +120,5 @@ as part of the **HealthTick Flutter Internship Test 2025**.
 > ✨ *"Every line of code is a step toward a greener, healthier world."* 🌳
 
 Feel free to connect with me:
-- 📧 ambrishtripathi6974@gmail.com
+- 📧 ambreesh09tripathigmail.com
 
