@@ -58,10 +58,18 @@ Ensure the following are installed on your system:
 3. **Set Up Firebase**:  
    Connect Firebase
 
-    -> Set up your Firebase project
-
-    -> Replace google-services.json and/or firebase_options.dart accordingly_KEY=your-anon-or-service-key  
-   ```  
+    -> Install FlutterFire CLI:
+   ```bash
+   dart pub global activate flutterfire_cli
+   ```
+   -> Login to Firebase:
+   ```bash
+   firebase login
+   ```
+   -> Configure your app:
+   ```bash
+   flutterfire configure
+   ```   
 
 4. **Run the App**:
    ```bash  
@@ -101,10 +109,17 @@ For a complete list, check out the [`pubspec.yaml`](./pubspec.yaml).
 ```  
 ---
 
-### Credit 
-> ✅ **Pro Tip:** After pasting this in your README.md, remember to:
-- Replace your-username in the clone URL with your actual GitHub username.
-- Replace [Your Name] at the end with your real name or GitHub handle.
+## 🙌 Credits
 
-Would you like a cover image or tree growth diagram added at the top of the README?
+This project was proudly built by **Ambrish Tripathi** 💻🌱  
+as part of the **HealthTick Flutter Internship Test 2025**.
+
+> From designing scalable architecture to rendering dynamic trees with `CustomPainter`, every element of this app was crafted with care to reflect growth through habit.  
+>  
+> A heartfelt thanks to the HealthTick team for this creative and meaningful challenge.  
+>  
+> ✨ *"Every line of code is a step toward a greener, healthier world."* 🌳
+
+Feel free to connect with me:
+- 📧 ambrishtripathi6974@gmail.com
 
