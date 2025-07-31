@@ -56,7 +56,6 @@ Ensure the following are installed on your system:
    ```  
 
 3. **Set Up Firebase**:  
-   Connect Firebase
 
     -> Install FlutterFire CLI:
    ```bash
