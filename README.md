@@ -15,7 +15,7 @@ In *Grow Your Forest*, users build a personalized forest by completing **3 daily
 ---
 
 ## 📹 Demo
-Demo link: "https://drive.google.com/file/d/1Z7HJpa02CKyynBUuH9rJ3zp2jbGkTTsH/view?usp=drive_link"  
+Demo link: "https://drive.google.com/file/d/1ngEH_xPueWa5JojiGpbKilSdY5WuRrLa/view?usp=drive_link"  
 
 ---
 
@@ -93,7 +93,6 @@ A glimpse at the major dependencies:
 | `go_router`           | ^14.6.1 | Simplified navigation management.        |  
 | `custom_painter`      | ^2.2.3  | Design custom animation & design.        |  
 
-For a complete list, check out the [`pubspec.yaml`](./pubspec.yaml).
 
 --- 
 
