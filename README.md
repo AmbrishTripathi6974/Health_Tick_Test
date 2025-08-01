@@ -93,7 +93,6 @@ A glimpse at the major dependencies:
 | `go_router`           | ^14.6.1 | Simplified navigation management.        |  
 | `custom_painter`      | ^2.2.3  | Design custom animation & design.        |  
 
-For a complete list, check out the [`pubspec.yaml`](./pubspec.yaml).
 
 --- 
 
